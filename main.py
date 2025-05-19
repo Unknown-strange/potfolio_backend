@@ -20,7 +20,7 @@ EMAIL_PORT = int(os.environ.get('EMAIL_PORT', 465))
 EMAIL_USE_SSL = os.environ.get('EMAIL_USE_SSL', 'True').lower() == 'true'
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER', 'princenyarkoedwin@gmail.com')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD', 'ocon gldj taoa eqpc')
-EMAIL_RECIPIENT = os.environ.get('EMAIL_RECIPIENT', 'francisdugbe026@gmail.com')
+EMAIL_RECIPIENT = os.environ.get('EMAIL_RECIPIENT', 'francisdugbe967@gmail.com')
 
 # Create logs directory for storing submissions
 log_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs")
